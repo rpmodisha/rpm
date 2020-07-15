@@ -1,0 +1,246 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Send Query</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+ <!-- case_study_area  -->
+    <div class="case_study_area white_case_study study_page">
+            <div class="patrn_1 d-none d-lg-block">
+                <img src="img/pattern/patrn_1.png" alt="">
+            </div>
+            <div class="patrn_2 d-none d-lg-block">
+                <img src="img/pattern/patrn.png" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="details_title">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single_study text-center white_single_study">
+                            <div class="thumb">
+                                
+                                    <img src="rpm/query.gif" alt="" height="150px">
+                               
+                            </div>
+                            <div class="subheading white_subheading">
+                               
+                              <h3 class="mb-30">Send Your Query</h3>
+							  
+								
+								
+				<div class="row">
+					<div class="col-lg-8 col-md-8">
+					
+					
+					
+					<br>
+					
+					<div class="booking-form">
+					 <script type="text/javascript">var submitted=false; </script>
+						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+						onload="if(submitted) {window.location='s-query.html';}"> </iframe> 
+						
+						 
+							<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScIGEyF2-bQe2-uwUpglJK89glXmjLg3NiW-ZTyw90JRjslEQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true ">
+	
+								
+								<div class="input-group-icon mt-10">
+								<div class="icon"><i class="fa fa-user" aria-hidden="true"></i></div>
+								<input type="text" placeholder="Your Name"  class="single-input" required name="entry.2005620554">
+							</div>
+							
+						
+								<div class="input-group-icon mt-10">
+								<div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+								<input type="text"  placeholder="10 digit Contact Number" pattern="\d{10}"  required name="entry.1166974658"
+									class="single-input">
+							</div>
+
+							
+							<div class="input-group-icon mt-10">
+								<div class="icon"><i class="fa fa-envelope-open" aria-hidden="true"></i></div>
+								<input type="email"  placeholder="Email address"
+									 required name="entry.1045781291"
+									class="single-input">
+							</div>
+						
+							
+							
+							<div class="input-group-icon mt-10">
+								<div class="icon"><i class="fa fa-info" aria-hidden="true"></i></div>
+								<input type="text"  placeholder="Subject of your Query"
+									 required name="entry.1065046570"
+									class="single-input">
+							</div>
+							
+							
+							<div class="input-group-icon mt-10">
+								<div class="icon"><i class="fa fa-edit" aria-hidden="true"></i></div>
+								<input type="text" class="single-textarea" placeholder="Describe Your Query" 
+									required name="entry.839337160"> </textarea>
+							</div>
+							
+							
+						
+
+						 <button type="submit">Send Your Query</button>
+	
+						</form>
+											
+											 
+       
+		  <script type="text/javascript">
+    function validateName() {
+            var name = document.getElementById('name').value;
+            if(name.length == 0) {
+              alert("Name can't be blank") ;
+              return false;
+
+            }
+            if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+              alert("Please enter your correct name") ;//Validation Message
+              return false;
+            }
+            return true;
+          }
+
+          function validatePhone() {
+            var phone = document.getElementById('phone').value;
+            if(phone.length == 0) {
+              alert("Phone number can't be blank") ;//Validation Message
+              return false;
+            }
+
+            if(!phone.match(/^[0]?[789]\d{9}$/)) {
+             alert("Please enter a correct phone number") ;//Validation Message
+             return false;
+           }
+
+           return true;
+
+         }
+
+         function validateEmail () {
+
+          var email = document.getElementById('email').value;
+          if(email.length == 0) {
+            alert("Email can't be blank") ;//Validation Message
+            return false;
+
+          }
+
+          if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+            alert("Please enter a correct email address") ;//Validation Message
+            return false;
+
+          }
+
+          return true;
+
+        }
+
+
+        function validateForm() {
+          if (!validateName() || !validatePhone() || !validateEmail()) {
+
+            alert("Form not submitted");//Validation Message
+            return false;
+          }
+          else {
+            submitted=true;
+			
+            return true;
+			
+          }
+
+        }
+
+        </script>
+						</div>		
+								
+
+								<br>
+								<br>
+								
+								
+								
+                            </div>
+                        </div>
+                
+                   
+                    
+                </div>
+            </div>
+			<br><br>
+								<br>
+								
+								
+								<center> <i class="fa fa-copyright" aria-hidden="true"></i> All right reserved, RPM, Odisha.
+								<br>
+								<br><br>
+								<br>
+								
+								
+        </div>
+		
+								
+		 <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
